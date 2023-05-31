@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitio de Manchester City</title>
+    
     <style>
-        h1 {
+    h1 {
                 background-color: #89edf1;
                 border:double 8px #1e6d70 ;
                 padding:50px ;
                 margin: 1%;
                 text-align: center;
-
         }
         body{
+            background-color: #bde7e9;
             font-family: Arial, sans-serif;
         }
+        h2{color:#000000}
     </style>
+    <link rel="stylesheet" href="css/estilos.css">
 
 
 </head>
@@ -26,7 +29,7 @@
     <hr>
     <h2>¿Que es?</h2><!--Subtitulo-->
     <p>El Manchester City Football Club, conocido como Manchester City, es un club de fútbol de la ciudad de Mánchester, Inglaterra, que juega en la Premier League. Fue fundado el 23 de noviembre de 1880 bajo el nombre de St. Mark's (West Gorton), luego pasó a llamarse Ardwick Association Football Club en 1887 y finalmente, el 16 de abril de 1894, adquirió su denominación actual. El club disputa sus partidos en el Etihad Stadium desde 2003, habiendo jugado en el Maine Road desde 1923. El club adoptó su camiseta de local celeste en 1894 en la primera temporada de la versión actual del club, y se han utilizado desde entonces.​ En términos de trofeos ganados, es el quinto club más exitoso en el fútbol inglés.
-        <br>
+    <br>
     <img src="imgs/img.png" alt="Escudo de Manchester City">
     <br>
     <pre align="center"> M A N C H E S T E R     C I T Y </pre>
@@ -34,20 +37,28 @@
     <a href="https://es.mancity.com" target="_blank">Clic Aqui</a>
     <br>
     <a href="https://es.mancity.com" width="50" target="_blank"><img src="imgs/imgs4.jpg" alt="Manchester City"></a>
-
-    <!--este tipo de DIV fue reemplazado por la etiqueta foorter-->
-    <div id="PieDePagina">
+    <div id="EtiquetasEnBloque">
         <p>Paises que juegan face de grupo con Premier League de Liga</p>
         <ul>
-            <li>1   Manchester city</li>
-            <li>2   Arsenal</li>
-            <li>3   Newcastle</li>
-            <li>4   Manchester United</li>
-            <li>5   Liverpool</li>
-            <li>6   Brighton</li>
+            <li>Manchester city</li>
+            <li>Arsenal</li>
+            <li>Newcastle</li>
+            <li>Manchester United</li>
+            <li>Liverpool</li>
+            <li>Brighton</li>
         </ul>
+        <p>Paises que juegan face de grupo con Premier League de Liga</p>
+        <ol>
+            <li>Manchester city</li>
+            <li>Arsenal</li>
+            <li>Newcastle</li>
+            <li>Manchester United</li>
+            <li>Liverpool</li>
+            <li>Brighton</li>
+        </ol>
     </div>
-    <table border="5px">
+    <div id= "TablaManchester">
+    <table border="5px" style="background-color: rgb(255, 255, 255);">
         <tr>
             <th colspan="6">Manchester city</th>
         </tr>
@@ -91,8 +102,10 @@
         
     </table>
 
-
-    <table border="1">
+</div>
+    <br>
+    <div id="TablaTema"></div>
+    <table border="4" style="background-color: rgb(255, 255, 255);">    
         <tr>
             <th rowspan="3">Ingeneria 2023</th>
             <th colspan="3">Temas</th>
@@ -100,7 +113,7 @@
         <tr>
             <th>HTML</th>
             <th>CSS</th>
-            <th>Javascript</th>
+            <th>JAVASCRIPT</th>
         </tr>
         <tr>
             <td>
@@ -129,8 +142,11 @@
         <tr>
             <th colspan="4">Instituto N°28</th>
         </tr>
-
     </table>
-
+</div>
+    <!--este tipo de DIV fue reemplazado por la etiqueta foorter-->
+    <div id="PieDePagina">
+    <p>Texto final pie de pagina</p>
+    </div>
 </body>
-</html>
+</html> 

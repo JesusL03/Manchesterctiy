@@ -1,0 +1,19 @@
+h1 {
+    background-color: #89edf1;
+    border:solid 8px #1e6d70 ;
+    padding:50px ;
+    margin: 1%;
+    text-align: center;
+}
+body{
+background-color: #bde7e9;
+font-family: Arial, sans-serif;
+}
+h2{color:#000000}
+#PieDePagina{
+    box-shadow: 10px 4px 8px #1e6d70;
+    padding: 10px;
+    margin: 10px;
+    background-color: #89edf1;
+    border-radius: 30px;
+}
