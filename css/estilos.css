@@ -77,6 +77,10 @@ a[target="_black"]{
     border-radius: 30px;
 }
 
+#PieDePagina:hover {
+    background-color: #bde7e9;
+}
+
 *[border~="double"]{
     color: rgb(20, 220, 57); !important;
 }
