@@ -1,19 +1,82 @@
-h1 {
+/*Selectores Universal*/
+*{
+    color: black; /*Lerta*/
+}
+h1,h2 {
     background-color: #89edf1;
     border:solid 8px #1e6d70 ;
+    box-shadow: 10px 4px 8px #1e6d70;
     padding:50px ;
     margin: 1%;
     text-align: center;
 }
+h3{
+    background-color: #89edf1;
+    border:solid 4px #1e6d70;
+    box-shadow: 10px 4px 8px #1e6d70;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+}
+
 body{
 background-color: #bde7e9;
 font-family: Arial, sans-serif;
 }
-h2{color:#000000}
+h2{color:#000000;
+}
+
+p span{
+    border: double 5px rgb(103, 111, 165);
+    background-color: rgb(2, 2, 2);
+}
+#EtiquetasEnBloque ul li{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.destacado{
+    background-color: aliceblue;
+}
+
+.destacado:hover{
+    background-color: rgb(235, 174, 174)
+}
+
+/*Selectorde hijos*/
+div > p{
+    font-style: italic;
+}
+
+/*Selectorde */
+p + ol{
+    background-color: rgb(46, 108, 162);
+}
+
+p + ul{
+    background-color: rgb(46, 108, 162);
+}
+
+/*d*/
+img {
+    border-radius: 40px;
+    border: solid 5px;
+}
+
+a[target="_black"]{
+    text-transform: uppercase;
+    color: white;
+}
+
+
 #PieDePagina{
     box-shadow: 10px 4px 8px #1e6d70;
     padding: 10px;
     margin: 10px;
     background-color: #89edf1;
     border-radius: 30px;
+}
+
+*[border~="double"]{
+    color: rgb(20, 220, 57); !important;
 }
